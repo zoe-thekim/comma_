@@ -5,7 +5,12 @@ module.exports = {
       "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            sans: ['"SUIT"', 'sans-sherif'],
+            logo: ['TAN-NIMBUS']
+        }
+    },
   },
   plugins: [require("daisyui")],
 }
