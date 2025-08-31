@@ -1,0 +1,29 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ¾Ã›8Ñ©êâ3
+]
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ8Æ‹¢ã3
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8Æ‹¢ã3
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpMethod'.(Ê¨Ä¡øÿÿÿÿ8Æ‹¢ã3
+m
+java:S1128"KRemove this unused import 'org.springframework.security.config.Customizer'.(Ïóœ¬ùÿÿÿÿ8Æ‹¢ã3
+‚
+java:S1128	"eRemove this unused import 'org.springframework.security.config.annotation.web.builders.HttpSecurity'.(ƒµ‹Š8Æ‹¢ã3
+‘
+java:S1128
+"oRemove this unused import 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity'.(ŸÜÑıÿÿÿÿ8Æ‹¢ã3
+n
+java:S1128"QRemove this unused import 'org.springframework.security.web.SecurityFilterChain'.(Ï×ÜÌ8Æ‹¢ã3
+~
+java:S1128"\Remove this unused import 'org.springframework.security.web.csrf.CookieCsrfTokenRepository'.(‰—Şµøÿÿÿÿ8Ç‹¢ã3
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8È‹¢ã3
+g
+java:S1128"KRemove this unused import 'org.springframework.web.cors.CorsConfiguration'.(î¤·`8È‹¢ã3
+s
+java:S1128"QRemove this unused import 'org.springframework.web.cors.CorsConfigurationSource'.(ŒºÏøşÿÿÿÿ8É‹¢ã3
+{
+java:S1128"YRemove this unused import 'org.springframework.web.cors.UrlBasedCorsConfigurationSource'.(µ²İûùÿÿÿÿ8É‹¢ã3
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8É‹¢ã3
