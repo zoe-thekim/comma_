@@ -22,7 +22,7 @@ export default function Login() {
         }
     }
     return (
-        <div style={{width:'400px', margin:'20px auto'}}>
+        /*<div style={{width:'400px', margin:'20px auto'}}>
             <ul className="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
                 <li className="nav-item" role="presentation">
                     <a className="nav-link" id="tab-login" data-mdb-pill-init href="../Member/Login" role="tab"
@@ -79,5 +79,111 @@ export default function Login() {
                 </div>
             </div>
         </div>
+        */
+        <div className="h-screen flex items-center justify-center bg-gray-200">
+            <div className="card w-96 p-8 bg-gray-200 rounded-2xl shadow-[8px_8px_16px_#bebebe,-8px_-8px_16px_#ffffff]">
+                <h2 className="text-[#333333] text-center font-bold">Welcome Back</h2>
+                <p className="text-center text-gray-500 mb-6">Sign in to your account</p>
+
+                <form className={"space-y-4"}>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-gray-600">Email Address</span>
+                        </label>
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            className="input w-full rounded-xl bg-gray-200 border-0 shadow-inner shadow-[inset_4px_4px_8px_#bebebe,inset_-4px_-4px_8px_#ffffff] focus:outline-none"
+                        />
+
+                    <div className={"form-control"}>
+                        <label className={"label"}>
+                            <span className={"label-text text-gray-600"}>Password</span>
+                        </label>
+                        <input type={"password"} placeholder={"Enter your password"}
+                               className="input w-full rounded-xl bg-gray-200 border-0 shadow-inner shadow-[inset_4px_4px_8px_#bebebe,inset_-4px_-4px_8px_#ffffff] focus:outline-none"
+                           />
+                    </div>
+
+                    <div className={"form-control"} >
+                        <button
+                            type={"submit"} className={"btn w-full rounded-xl bg-gray-200 border-0 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-700 font-semibold hover:shadow-[2px_2px_4px_#bebebe,-2px_-2px_4px_#ffffff] transition"}>
+                            Submit
+                        </button>
+                    </div>
+                    {/*<div className="w-[336px] h-[50px] static">*/}
+                    {/*    <div*/}
+                    {/*        className="bg-[#f5f5f5] rounded-[18px] border-solid border-[transparent] border w-[336px] h-[50px] absolute left-8 top-[167px]"*/}
+                    {/*        style={{*/}
+                    {/*            boxShadow:*/}
+                    {/*                "8px 8px 16px 0px rgba(0, 0, 0, 0.10),  -8px -8px 16px 0px rgba(255, 255, 255, 0.80)",*/}
+                    {/*        }}*/}
+                    {/*    ></div>*/}
+                    {/*    <div className="text-[#000000] text-left font-body-m-font-family text-body-m-font-size leading-body-m-line-height font-body-m-font-weight absolute left-[49px] top-[178px] flex items-center justify-start">*/}
+                    {/*        Enter your email{" "}*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                </div>
+
+                {/*<div className="w-[336px] h-[79px] static">*/}
+                {/*    <div className="w-[336px] h-[50px] static">*/}
+                {/*        <div*/}
+                {/*            className="bg-[#f5f5f5] rounded-[18px] border-solid border-[transparent] border w-[336px] h-[50px] absolute left-8 top-[270px]"*/}
+                {/*            style={{*/}
+                {/*                boxShadow:*/}
+                {/*                    "8px 8px 16px 0px rgba(0, 0, 0, 0.10),  -8px -8px 16px 0px rgba(255, 255, 255, 0.80)",*/}
+                {/*            }}*/}
+                {/*        ></div>*/}
+                {/*        <img*/}
+                {/*            className="w-5 h-5 absolute left-[331px] top-[285px] overflow-visible"*/}
+                {/*            src="icon0.svg"*/}
+                {/*        />*/}
+                {/*        <div className="text-[#000000] text-left font-body-m-font-family text-body-m-font-size leading-body-m-line-height font-body-m-font-weight absolute left-[49px] top-[281px] flex items-center justify-start">*/}
+                {/*            Enter your password{" "}*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="text-[#666666] text-left font-body-l-font-family text-body-l-font-size leading-body-l-line-height font-body-l-font-weight absolute left-8 top-[241px]">*/}
+                {/*        Password{" "}*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                </form>
+            </div>
+        </div>
+
+    // <div className="main-h-screen flex items-center justify-center bg-gray-200">
+    //     <div className="card w-96 p-8 rounded-2xl shadow-[8px_8px_16px_#bebebe,-8px_-8px_16px_#ffffff] bg-gray-200">
+    //         <h2 className="text-2xl font-bold text-center mb-6 text-gray-700">로그인</h2>
+    //
+    //         <div className="form-control mb-4">
+    //             <label className="label">
+    //                 <span className="label-text text-gray-600">이메일</span>
+    //             </label>
+    //             <input
+    //                 type="email"
+    //                 placeholder="example@email.com"
+    //                 className="input rounded-xl border-0 shadow-inner shadow-[inset_4px_4px_8px_#bebebe,inset_-4px_-4px_8px_#ffffff] bg-gray-200 focus:outline-none"
+    //             />
+    //         </div>
+    //
+    //         <div className="form-control mb-6">
+    //             <label className="label">
+    //                 <span className="label-text text-gray-600">비밀번호</span>
+    //             </label>
+    //             <input
+    //                 type="password"
+    //                 placeholder="••••••••"
+    //                 className="input rounded-xl border-0 shadow-inner shadow-[inset_4px_4px_8px_#bebebe,inset_-4px_-4px_8px_#ffffff] bg-gray-200 focus:outline-none"
+    //             />
+    //         </div>
+    //
+    //         <button className="btn w-full rounded-xl bg-gray-200 border-0 shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] text-gray-700 font-semibold hover:shadow-[2px_2px_4px_#bebebe,-2px_-2px_4px_#ffffff] transition">
+    //             로그인
+    //         </button>
+    //
+    //         <p className="text-center mt-4 text-sm text-gray-500">
+    //             계정이 없으신가요? <a href="#" className="text-blue-500 hover:underline">회원가입</a>
+    //         </p>
+    //     </div>
+    // </div>
     );
 }
